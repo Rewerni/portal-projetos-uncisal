@@ -23,24 +23,24 @@ interface ProjectCard {
 const projects: ProjectCard[] = [
   {
     id: 1,
-    title: "Entre Cuidados",
-    description: "Autocuidado do Cuidador — recursos de bem-estar para quem dedica a vida a cuidar dos outros.",
-    icon: <Heart size={28} strokeWidth={2} />,
+    title: "Cuidar de Quem Cuida",
+    description: "Apoio emocional e ferramentas práticas para familiares e cuidadores informais de pessoas com deficiência.",
+    icon: <Users size={28} strokeWidth={2} />,
     href: "#",
     featured: true,
   },
   {
     id: 2,
-    title: "Cuidar de Quem Cuida",
-    description: "Apoio emocional e ferramentas práticas para familiares e cuidadores informais de pessoas com deficiência.",
-    icon: <Users size={28} strokeWidth={2} />,
+    title: "Guia Interativo de Estimulação Precoce",
+    description: "Atividades e orientações para o desenvolvimento infantil nos primeiros anos de vida.",
+    icon: <BookOpen size={28} strokeWidth={2} />,
     href: "#",
   },
   {
     id: 3,
-    title: "Guia Interativo de Estimulação Precoce",
-    description: "Atividades e orientações para o desenvolvimento infantil nos primeiros anos de vida.",
-    icon: <BookOpen size={28} strokeWidth={2} />,
+    title: "Entre Cuidados",
+    description: "Autocuidado do Cuidador — recursos de bem-estar para quem dedica a vida a cuidar dos outros.",
+    icon: <Heart size={28} strokeWidth={2} />,
     href: "#",
   },
   {
